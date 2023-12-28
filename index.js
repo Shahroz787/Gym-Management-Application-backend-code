@@ -138,7 +138,7 @@ app.get('/getAdmissionData/:id', async (req, res) => {
 
   try {
     const entry = await YourModel.findById(id).lean();
-    
+
     if (!entry) {
       return res.status(404).json({ error: 'Entry not found' });
     }
