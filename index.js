@@ -13,7 +13,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 const dbURI = 'mongodb+srv://shahrozahmed787:CLIfgHU5PYmitQkU@cluster0.6qsfpo5.mongodb.net';
 const dbName = 'test';
 
