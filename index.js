@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 });
 
 const port = process.env.PORT || 8080;
-const dbURI = 'mongodb+srv://shahrozahmed787:CLIfgHU5PYmitQkU@cluster0.6qsfpo5.mongodb.net';
+const dbURI = 'mongodb+srv://shahroz:Sheroo123*@cluster0.gn2f1y4.mongodb.net';
 const dbName = 'test';
 
 // Connect to the MongoDB database
